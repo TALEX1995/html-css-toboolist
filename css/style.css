@@ -57,8 +57,13 @@ ul {
     list-style-type: none;
 }
 
-.editorial {
-    background-color: #45abea;
+
+.green-check.circle {
+    border: 1px solid green;
+}
+
+.red-check.circle {
+    border: 1px solid red;
 }
 
 /* Utilities */
@@ -78,11 +83,10 @@ ul {
     margin-top: 20px;
 }
 
-.green-circle {
+.circle {
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    border: 1px solid green;
     display: inline-block;
     text-align: center;
     line-height: 18px;
@@ -97,6 +101,22 @@ ul {
     padding: 7px;
     font-size: 14px;
     border-radius: 14px;
+}
+
+.editorial {
+    background-color: #45abea;
+}
+
+.goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
 }
 
 
@@ -118,6 +138,7 @@ h3 {
 
 li {
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 * {
