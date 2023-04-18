@@ -29,6 +29,48 @@ h1 {
 }
 
 
+/* NAV */
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.add-task {
+    width: 30px;
+    background-color: #1e90ff;
+}
+
+.add-task, .add-section {
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.add-section {
+    border: 1px solid black;
+    color: #908080;
+}
 
 
 /* Utilities */
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+    background-color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.separator {
+    border-bottom: 1px solid #f6f8f9;
+    margin-top: 20px;
+}
+
+/* Background */
+
+.background {
+    background-color: rgb(191, 191, 223);
+}
