@@ -60,10 +60,12 @@ ul {
 
 .green-check.circle {
     border: 1px solid green;
+    color: green;
 }
 
 .red-cross.circle {
     border: 1px solid red;
+    color: red;
 }
 
 .task {
@@ -78,7 +80,6 @@ ul {
 
 .nav.container {
     width: 1080px;
-    height: 50px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 2px;
